@@ -11,15 +11,15 @@
 #include "main.h"
 
 // defines for input port used by button
-#define		GPIO_PORT_BUTTON				GPIOA
-#define		GPIO_PIN_BUTTON					3
+#define		GPIO_PORT_BUTTON				GPIOB
+#define		GPIO_PIN_BUTTON					4
 
 // defines for "checkButtonState"
 #define		TRIGGER_RISE					0
 #define		TRIGGER_FALL					1
 
 #define		BUTTON_EXTI_TRIGGER				TRIGGER_FALL
-#define		BUTTON_EXTI_SAMPLES_WINDOW		30
+#define		BUTTON_EXTI_SAMPLES_WINDOW		50
 #define		BUTTON_EXTI_SAMPLES_REQUIRED	20
 
 
